@@ -1,3 +1,8 @@
+---
+layout: default
+title: Bitácora Técnica (Español)
+nav_order: 2
+---
 # 📘 Bitácora Técnica (Versión en Español)
 
 ## Título: Convertí mi Android en un entorno completo de desarrollo con Termux, Ubuntu y VS Code
@@ -46,7 +51,28 @@ Esta bitácora documenta paso a paso cómo Richard Salvatierra transformó su te
 - Archivo `index.md` publicado con enlaces dinámicos a bitácoras
 
 ---
-
 ## 🧪 Resultado Final del Diagnóstico
 
-| Componente      | Estado |
+| Componente         | Estado   |
+|--------------------|----------|
+| Ubuntu             | ✅ Instalado correctamente |
+| VS Code (code-server) | ✅ Funcionando en localhost |
+| Zsh + Oh My Zsh    | ✅ Personalización activa |
+| ngrok              | ✅ Autenticado y probado |
+| Scripts de gestión | ✅ startvsc.sh, verifica_entorno.sh, restaurar_backup.sh |
+| GitHub Pages       | ✅ Publicación activa con Just the Docs |
+
+---
+
+## ✍️ Próximos Pasos
+
+- [ ] Añadir más documentación técnica a cada sección del proyecto
+- [ ] Incluir capturas de pantalla del entorno funcional
+- [ ] Traducir nuevas secciones al inglés para `bitacora-en.md`
+- [ ] Publicar actualizaciones semanales del entorno
+
+---
+
+🚀 *"Convertir una limitación en oportunidad es el arte del ingeniero autodidacta."*  
+— Richard Salvatierra
+

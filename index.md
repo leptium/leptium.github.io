@@ -43,6 +43,4 @@ Welcome to my technical journey, where I transformed an Android phone into a pow
 
 ## 👨‍💻 About Me
 
-I'm Richard Salvatierra (`@leptium`), a passionate system tinkerer and documentation enthusiast.
-
-> ✉️ Reach me on [GitHub](https://github.com/leptium)
+I'm Richard Salvatierra (`@leptium`), a passionate system tinkerer and documentation enthusiast. ✉️ Reach me on [GitHub](https://github.com/leptium)

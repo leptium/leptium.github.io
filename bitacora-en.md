@@ -1,8 +1,14 @@
+---
+layout: default
+title: Technical Log (English)
+nav_order: 3
+---
+
 # 📘 Technical Log (English Version)
 
-## Title: I Turned My Android into a Full Development Environment with Termux, Ubuntu, and VS Code
+## Title: I Turned My Android into a Complete Development Environment with Termux, Ubuntu, and VS Code
 
-This log documents step-by-step how Richard Salvatierra transformed his Android phone into a professional Linux development environment using open-source tools, automation scripts, and GitHub Pages with the “Just the Docs” theme.
+This log documents step-by-step how Richard Salvatierra transformed his Android phone into a professional Linux development environment using open-source tools, automated scripts, and GitHub Pages with the "Just the Docs" theme.
 
 ---
 
@@ -13,53 +19,61 @@ This log documents step-by-step how Richard Salvatierra transformed his Android 
 - **code-server** (Visual Studio Code Web)
 - **Python**, **Node.js**, **Git**, **Zsh**, **Oh My Zsh**
 - **ngrok** for remote tunnels
-- **GitHub Pages** + **Jekyll** with the “Just the Docs” theme
+- **GitHub Pages** + **Jekyll** with the "Just the Docs" theme
 
 ---
 
 ## 🧭 Project Milestones
 
-### ✅ Initial Installation
-- Termux and base packages installed via `pkg`
-- Ubuntu 24.04 installed using `proot-distro install ubuntu`
+### ✅ Initial Setup
+- Termux and base packages installed using `pkg`
+- Ubuntu 24.04 installed via `proot-distro install ubuntu`
 - Accessed using `proot-distro login ubuntu`
 
-### 🧱 Dev Environment
+### 🧱 Development Environment
 - Ubuntu updated
-- `code-server` installed and working
-- Node.js, Python, Git, Zsh installed
-- Oh My Zsh configured
+- `code-server` installed and running
+- Installed Node.js, Python, Git, and Zsh
+- Installed Oh My Zsh for enhanced terminal UX
 
-### 🔐 Remote Access & Tunnels
-- Ngrok installed and authenticated
-- Scripts created to launch VS Code and open ngrok tunnel
-- Access verified through browser
+### 🔐 Remote Access & Tunneling
+- Manually installed and authenticated ngrok
+- Scripts created to start VS Code and open tunnel with ngrok
+- Access verified via browser
 
-### 📦 Backup and Restore System
-- Full backup in `~/ubuntu_backup`
-- Scripts `startvsc.sh`, `verifica_entorno.sh`, `restaurar_backup.sh` created
-- Recovered environment after reinstall tests
+### 📦 Backup & Restore System
+- Full backup saved in `~/ubuntu_backup`
+- Scripts created: `startvsc.sh`, `verifica_entorno.sh`, `restaurar_backup.sh`
+- Restored and tested successfully after reinstallation
 
 ### 📄 GitHub Pages Integration
 - Repository `leptium.github.io` configured
-- “Just the Docs” Jekyll theme applied
-- `index.md` updated with links to both logs
+- Jekyll theme "Just the Docs" installed
+- `index.md` published with links to logs
 
 ---
 
 ## 🧪 Final Diagnostic Summary
 
-| Component        | Status |
-|------------------|--------|
-| Ubuntu           | ✅     |
-| code-server      | ✅     |
-| Zsh + Oh-My-Zsh  | ✅     |
-| ngrok            | ✅     |
-| Automation       | ✅     |
-| GitHub Pages     | ✅     |
+| Component             | Status   |
+|-----------------------|----------|
+| Ubuntu                | ✅ Successfully installed |
+| VS Code (code-server) | ✅ Running on localhost |
+| Zsh + Oh My Zsh       | ✅ Active and customized |
+| ngrok                 | ✅ Authenticated and functional |
+| Management Scripts    | ✅ startvsc.sh, verifica_entorno.sh, restaurar_backup.sh |
+| GitHub Pages          | ✅ Online with Just the Docs |
 
 ---
 
-## 📝 Final Notes
+## ✍️ Next Steps
 
-- Entire environment backed up in `
+- [ ] Add more technical documentation for each section
+- [ ] Include screenshots of the functional environment
+- [ ] Translate new sections into Spanish for `bitacora-es.md`
+- [ ] Publish weekly updates and improvements
+
+---
+
+🚀 *"Turning a limitation into an opportunity is the art of the self-taught engineer."*  
+— Richard Salvatierra
