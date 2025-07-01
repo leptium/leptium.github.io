@@ -6,16 +6,15 @@ nav_order: 1
 
 # 🚀 How I Turned My Android into a Full Development Environment
 
-Welcome to my technical journey, where I transformed an Android phone into a full-featured development workstation using **Termux**, **Ubuntu**, **VS Code Server**, and **ngrok**, with automated scripts, backups, and a beautiful documentation theme using Jekyll + Just the Docs.
+Welcome to my technical journey, where I transformed an Android phone into a powerful Linux-based coding machine with Ubuntu, Termux, VS Code Web, and more.
 
 ---
 
 ## 📚 Documentation Index
 
 ### 🛠️ Full Setup Guide
-> [Bitácora Técnica (English)](bitacoras-en.md)
-
-Detailed step-by-step guide with code snippets, error fixes, and remote access setup.
+- 🇪🇸 [Bitácora Técnica (Español)](bitacora-es.md)
+- 🇬🇧 [Technical Logbook (English)](bitacora-en.md)
 
 ---
 
@@ -44,8 +43,6 @@ Detailed step-by-step guide with code snippets, error fixes, and remote access s
 
 ## 👨‍💻 About Me
 
-I'm Richard Salvatierra (`@leptium`), a passionate systems engineer, currently based in the U.S., building bridges between mobile computing, education, and infrastructure. This project is part of my continuous exploration of **what's possible with minimal resources** and a lot of creativity.
+I'm Richard Salvatierra (`@leptium`), a passionate system tinkerer and documentation enthusiast.
 
-> ✉️ Reach me via [GitHub](https://github.com/leptium) or stay tuned for more updates.
-
----
+> ✉️ Reach me on [GitHub](https://github.com/leptium)
