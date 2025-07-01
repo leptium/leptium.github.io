@@ -13,11 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-<<<<<<< HEAD
-=======
-theme: just-the-docs
->>>>>>> gh-pages
 title: Android Dev Station
+theme: just-the-docs
 description: How I Turned an Android into a Professional Development Station
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leptium.github.io" # the base hostname & protocol for your site, e.g. http://example.com
